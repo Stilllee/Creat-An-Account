@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Creat An Account</h1>
+    <form>
+      <div>
+        <label for="first-name">First name</label>
+        <input type="text" required placeholder="First name" id="first-name" />
+      </div>
+      <div>
+        <label for="last-name">Last name</label>
+        <input type="text" required placeholder="Last name" id="last-name" /> 
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="text" required placeholder="Email" id="email" />
+      </div>  
+      <div>
+        <label for="user-name">User name</label>
+        <input type="text" required placeholder="User name" id="user-name" />  
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" required placeholder="Password" minlength="10" id="password" />        
+      </div>
+      <div>
+        <label for="birth-date">Birth date</label>
+        <input type="date" required id="birth-date"/> 
+      </div>
+      <div>
+        <label for="range">How happy are you?</label>
+        <input type="range" required list="tickmarks" id="range">
+        <datalist id="tickmarks">
+        <option value="0"></option>
+        <option value="10"></option>
+        <option value="20"></option>
+        <option value="30"></option>
+        <option value="40"></option>
+        <option value="50"></option>
+        <option value="60"></option>
+        <option value="70"></option>
+        <option value="80"></option>
+        <option value="90"></option>
+        <option value="100"></option>
+        </datalist>
+      </div>
+      <div>
+        <label for="colors">What is your fav.color?</label>
+        <input type="color" required id="colors"/>
+      </div>
+      <div>
+        <input type="submit" required value="Creat Account"/ id="btn">
+      </div>
+    </form>
+  </body>
+</html>
